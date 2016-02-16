@@ -59,7 +59,7 @@ img {
 }
 
 
-main {
+#index {
 	margin-left: 10px;
 	width: 55%;
 	display: inline-block;
@@ -91,4 +91,27 @@ table img {
 
 #logo {
 	margin-left: 40px;
+}
+
+.main {
+	margin: 5px;
+	display: inline-block;
+	border: solid 1px blue;
+	width: 43%;
+}
+
+.varList {
+	display: inline;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+footer {
+	clear: both;
 }
