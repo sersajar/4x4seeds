@@ -2,40 +2,6 @@
 	box-sizing: border-box;
 }
 
-html {
-	border: solid;
-	background-color: white;
-}
-
-body {
-	margin: 0 auto;
-	width: 88%;
-	background-image: url(../img/fondo_old_scroll.jpg);
-	border: solid red;
-}
-
-header {
-	border: solid blue;
-}
-
-#head-logo {
-	height: 100px;
-	width: 100px;
-	border: solid;
-	background-image: url(../img/4x4-logo-white.peque.png);
-	float: left;
-	margin-top: -25px;
-}
-
-h1, h2 {
-	text-align: center;
-}
-
-p {
-	width: 40%;
-	border: solid;
-	padding: 30px;
-}
 
 footer {
 	clear: both;
