@@ -17,8 +17,27 @@ body {
 header {
 	height: 100px;
 	background-image: url("../img/background_header_02.jpg");
-	border: 1px solid;
+	/* border: 1px solid; */
 	border-bottom: solid;
+}
+
+#logo {
+	margin-top: -5px;
+}
+
+#bigLogo{
+	height: 50%;
+	width: 50%;
+}
+
+#bilbo {
+	height: 80%;
+	width: 80%;
+}
+
+#strain {
+	height: 100%;
+	width: 100%;
 }
 
 h1 {
@@ -27,42 +46,6 @@ h1 {
 
 h1, h2, h3 {
 	text-align: center;
-}
-
-nav {
-	
-	float: left;
-	width: 160px;
-	margin-left: -20px;
-	display: inline-block;
-}
-
-nav a {
-	color: black;
-	padding: 10px;
-	text-decoration: none;
-}
-
-nav ul {
-	list-style-type: none;
-	
-}
-
-nav>ul>li {
-
-	margin: 10px;
-	margin-left: -20px;
-	padding: 5px 10px;
-	text-align: center;
-	background-color: white;
-	border: 1px solid;
-}
-
-
-img {
-	width: 80%;
-	height: 80%;
-	border: solid;
 }
 
 
@@ -98,15 +81,6 @@ table {
 	margin: 0 auto;
 	width: 95%;
 	border: blue 1px dashed;
-}
-
-table img {
-	width: 200px;
-	height: 150px;
-}
-
-#logo {
-	margin-left: 40px;
 }
 
 .main {
