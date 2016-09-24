@@ -7,25 +7,74 @@
 	<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mystyles.css" rel="stylesheet">
 </head>
 
 <body>
-	<header>
-		<nav class="navbar navbar-default">
-  			<div class="container-fluid">
-  			  <div class="navbar-header">
-  			    <a class="navbar-brand" href="index.htm"><span><img id="logo" src="img/4x4-logo-white.png" alt="logo" height=30 width=30></span> 4x4 Seeds</a>
-  			  </div>
-  			  <ul class="nav navbar-nav">
-  			    <li class="active"><a href="#">Home</a></li>
-  			    <li><a href="variedades.htm">Variedades</a></li>
-  			    <li><a href="contatcus.htm">Contacto</a></li>
-  			    <li><a href="wheretobuy.htm">Donde Comprar</a></li>
-  			  </ul>
-  			</div>
-		</nav>
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collaped"
+                        data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false"
+                        aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="navLogo" class="navbar-brand" href="index.htm"><span><img src="img/4x4-logo-white.png" height=45 width=45></span> 4x4 Seeds</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">
+                        <span class="glyphicon glyphicon-home"
+                              aria-hidden="true"></span> Home</a></li>
+                    <li><a href="variedades.htm"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Variedades</a></li>
+                    <li><a href="contactus.htm"><i class="fa fa-envelope"></i> Contact</a></li>
+                    <li><a href="wheretubuy.htm"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Tienda</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	
+    <header class="jumbotron">
+    <!-- Main component for a primary marketing message or call to action -->
+    	<div class="container">
+    	    <div class="row row-header">
+    	        <div class="col-xs-12 col-sm-8">
+                	<h1 align="center" > <bold> 4 x 4 SEEDS </bold></H1>
+               	</div>
+            	<div class="col-xs-12 col-sm-4 col-md-4">
+               		<h2 align="center">Semillas todo-terreno</h2>
+            	</div>
+    	    </div>
+    	</div>
 	</header>
+
+	<div class="container">
+    	<div class="row  row-content">
+    	    <div>
+    	        <ol class="breadcrumb">
+    	          <li class="active">Home</li>
+    	        </ol>
+    	    </div>
+    	    <div class="col-xs-12 col-sm-3">
+            	<P style="padding: 20px;"></P>
+            	<H3 align="center">Nuestra historia</H3>
+        	</div>
+        	<div class="col-xs-12 col-sm-9">
+        		<p>4x4 Seeds surge en 2012, con una idea sencilla, llevar al limite el cultivo de plantas de cannabis de floracion no fotodependiente (A.K.A.<em>Automaticas</em>) potenciando todas sus caracteristicas deseables y reduciendo las indeseadas.</p>
+				<p>Pulsa <a href="variedades.htm">aqui</a> para ver todas nuestras variedades. Y si te gusta lo que ves y quieres adquirir alguna de nuestras semillas todo-terreno visita nuestra <a href="www.4x4-seeds.com/tienda/index.htm">tienda</a> o contacta con <a href="contact.htm">nosotros</a>.</p>
+        	</div>
+        	
+    	</div>
+    </div>
 
 	<main id="index">
 		<section class= "blanco">
@@ -40,33 +89,6 @@
 			<img id="bilbo" src="img/blue_syrup_1erPlano_001.jpg" alt="cogollo cono tonos morados" />
 		</figure>
 	</main>
-	<aside id="Rmenu">
-		<h3>Comments</h3><hr>
-		<form id="comments" action="mailto:yamunareus@gmail.com" "method=POST">
-		Your Name<br>
-		<input type="text" size="20" name="name">
-		<br><br>
-		Email Address<br>
-		<input type="text" size="20" name="email">
-		<br><br>
-		Did you enjoy my web site?<br><br>
-		&nbsp;&nbsp;&nbsp;<input type="radio" name="enjoysite" value="yes">Yes&nbsp;&nbsp;&nbsp;<input type="radio" name="enjoysite" value="no">No
-		<br><br>
-		How did you find this web site?&nbsp;&nbsp;
-		<select name="findsite">
-		<option selected>Choose One
-		<option>Search Engine
-		<option>Banner Ad
-		<option>Links Page
-		<option>Other
-		</select>
-		<br><br>
-		Any Comments or Questions?<br>
-		<textarea name="comments" rows="8" cols="24"></textarea>
-		<br><br>
-		<input type="submit" value="Send">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset">
-		</form>
-	</aside>
 
 	<footer><strong>Web made by Sergi Sabate &copy</strong></footer>
 

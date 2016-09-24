@@ -15,7 +15,7 @@
 </head>
 
 <body>
-	
+
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -32,10 +32,10 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.htm">
+                    <li class="active"><a href="#">
                         <span class="glyphicon glyphicon-home"
                               aria-hidden="true"></span> Home</a></li>
-                    <li class="active"><a href="variedades.htm"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Variedades</a></li>
+                    <li><a href="variedades.htm"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Variedades</a></li>
                     <li><a href="contactus.htm"><i class="fa fa-envelope"></i> Contact</a></li>
                     <li><a href="wheretubuy.htm"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Tienda</a></li>
                 </ul>
@@ -43,22 +43,36 @@
         </div>
     </nav>
 
-
 	<main>
-		<div class="main" id="left">
-			<h2>Variedades 4x4</h2><hr>
-			<ul>
-				<li class="varList"><a class="varList" href="#choco">Chocolauto</a></li>
-				<li class="varList"><a class="varList" href="#kritikal">Kritikal Auto</a></li>
-				<li class="varList"><a class="varList" href="#fruti">Tutti Frutti Auto</a></li>
-			</ul>
-		</div>
-		<div class="main" id="right">
-			<figure>
-				<img id="strain" src="img/auto-fruity-001.JPG" alt="Cogollo tonos purpuras" />
-			</figure>
-		</div>
+		<h1>Contacta con nosotros</h1><hr>
+		<form id="comments" action="mailto:yamunareus@gmail.com" "method=POST">
+		Your Name<br>
+		<input type="text" size="20" name="name">
+		<br><br>
+		Email Address<br>
+		<input type="text" size="20" name="email">
+		<br><br>
+		Did you enjoy my web site?<br><br>
+		&nbsp;&nbsp;&nbsp;<input type="radio" name="enjoysite" value="yes">Yes&nbsp;&nbsp;&nbsp;<input type="radio" name="enjoysite" value="no">No
+		<br><br>
+		How did you find this web site?&nbsp;&nbsp;
+		<select name="findsite">
+		<option selected>Choose One
+		<option>Search Engine
+		<option>Banner Ad
+		<option>Links Page
+		<option>Other
+		</select>
+		<br><br>
+		Any Comments or Questions?<br>
+		<textarea name="comments" rows="8" cols="24"></textarea>
+		<br><br>
+		<input type="submit" value="Send">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset">
+		</form>
+
 	</main>
+
 	<footer><strong>Web made by Sergi Sabate &copy</strong></footer>
+
 </body>
 </html>
